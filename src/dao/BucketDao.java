@@ -86,6 +86,7 @@ public class BucketDao {
 
 		try {
 			con = DBConnectionUtil.getConnection();
+			//System.out.println("@@ selectBucket conn : " +con);
 			java.sql.Statement st = null;
 			ResultSet rs = null;
 			st = con.createStatement();
@@ -278,7 +279,7 @@ public class BucketDao {
 			con = DBConnectionUtil.getConnection();
 			String sql = XMLParser.getSqlFromXML("modifyBucket");
 
-			System.out.println(sql);
+			//System.out.println(sql);
 
 			PreparedStatement preparedStmt = (PreparedStatement) con.prepareStatement(sql);
 			preparedStmt.setString(1, board.getDate());
@@ -310,7 +311,7 @@ public class BucketDao {
 			con = DBConnectionUtil.getConnection();
 			String sql = XMLParser.getSqlFromXML("updateBucketHidden");
 
-			System.out.println(sql);
+			//System.out.println(sql);
 
 			PreparedStatement preparedStmt = (PreparedStatement) con.prepareStatement(sql);
 			preparedStmt.setInt(1, categoryCode);
@@ -341,7 +342,7 @@ public class BucketDao {
 			con = DBConnectionUtil.getConnection();
 			String sql = XMLParser.getSqlFromXML("updateBucketHidden");
 
-			System.out.println(sql);
+			//System.out.println(sql);
 
 			PreparedStatement preparedStmt = (PreparedStatement) con.prepareStatement(sql);
 			preparedStmt.setString(1, hiddenCode);

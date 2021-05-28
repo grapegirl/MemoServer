@@ -33,6 +33,7 @@ public class CategoryBucketDao {
 
 		try {
 			con = DBConnectionUtil.getConnection();
+			System.out.println("@@ selectCategoryBucket con : " + con);
 			java.sql.Statement st = null;
 			ResultSet rs = null;
 			st = con.createStatement();

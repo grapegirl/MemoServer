@@ -21,8 +21,8 @@ public class XMLParser {
 		Properties properties = new Properties();
 
 		try {
-		//	String url = "Users/mhkim/Documents/MemoServer/WebContent/property.xml";
-			String url = "/Users/mhkim/Documents/Dev/MemoServer/WebContent/property.xml";
+			String url = "/Users/mhkim/Documents/Dev/MemoServer/WebContent/property.xml"; //local
+			//String url = "/home/hosting_users/kikiplus/www/WEB-INF/property.xml"; // real
 			properties.loadFromXML(new FileInputStream(url));
 
 			return (String) properties.get(keyName);
@@ -44,7 +44,8 @@ public class XMLParser {
 		Properties properties = new Properties();
 
 		try {
-			String url = "C:\\Users\\mhKim\\Documents\\workspace\\MemoServer\\WebContent\\sql.xml";
+			String url = "/Users/mhkim/Documents/Dev/MemoServer/WebContent/sql.xml"; //local
+			//String url = "/home/hosting_users/kikiplus/www/WEB-INF/sql.xml"; // real 
 			properties.loadFromXML(new FileInputStream(url));
 
 			return (String) properties.get(sqlName);

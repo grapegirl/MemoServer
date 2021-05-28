@@ -151,6 +151,8 @@ public class MobileAPIController {
 		JSONObject jsonObj = new JSONObject();
 		try {
 			String sql = XMLParser.getSqlFromXML("selectMobileCategoryBucket");
+			System.out.println("@@ getCategory() sql :  " + sql);
+			
 			ArrayList<CategoryBucket> List = CategoryBucketDao.selectCategoryBucket(sql);
 
 			JSONArray jsonArr = new JSONArray();

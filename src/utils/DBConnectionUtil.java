@@ -24,26 +24,24 @@ public class DBConnectionUtil {
 	 */
 	public static Connection getConnection() throws SQLException {
 		try {
-			System.out.println("@@ getConnection() start ");
 			Class.forName(DRIVER_NAME);
 			
 			String name = XMLParser.getXMLObject("dbName");
 			String password = XMLParser.getXMLObject("dbPassword");
 			String url = XMLParser.getXMLObject("dbUrl");
 			
-			System.out.println("@@ getConnection() DB name : " + name);
-			System.out.println("@@ getConnection() DB password : " + password);
-			System.out.println("@@ getConnection() DB url : " + url);
-
+			
+//			System.out.println("@@ getConnection() DB name : " + name);
+//			System.out.println("@@ getConnection() DB password : " + password);
+//			System.out.println("@@ getConnection() DB url : " + url);
 			mConnection = (Connection) DriverManager.getConnection(url, name, password);
+			
 			
 		} catch (ClassNotFoundException cnfe) {
 			System.out.println("DBConnectionUtil Excetipn ClassNotFoundException Error");
 		} catch (Exception e) {
 			System.out.println("DBConnectionUtil Excetipn Exception Error : " + e.getMessage());
 		}
-		System.out.println("@@ getConnection() End ");
-		
 		return mConnection;
 	}
 

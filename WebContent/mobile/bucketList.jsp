@@ -12,11 +12,12 @@
 	System.out.println("@@ getBucketList requestMethod => " + requestMethod + "\n");
 	
 	if (requestMethod.equals("POST")) {
-		//System.out.println("@@ getBucketList categotCode : " + categoryCode);
+		System.out.println("@@ getBucketList categotCode : " + categoryCode);
 		String sql = SqlController.getBucketList(categoryCode);
+		//System.out.println("@@ getBucketList sql : " + sql);
 		JSONObject jsonObject = MobileAPIController.getBucketList(sql);
 		out.print(jsonObject);
-		System.out.println("@@ getBucketList => " + jsonObject + "\n");
+		//System.out.println("@@ getBucketList => " + jsonObject + "\n");
 	}else{
 		System.out.println("@@ getBucketList request no post\n");
 	}
