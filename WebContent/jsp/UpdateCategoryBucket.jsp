@@ -11,7 +11,7 @@
 <html>
 <head>
 <script>
-	location.href = "/MemoServer/jsp/CategoryBucketList.jsp";
+	location.href = "/jsp/CategoryBucketList.jsp";
 </script>
 <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
 <title>메모가지 관리자</title>

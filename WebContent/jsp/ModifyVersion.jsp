@@ -46,7 +46,7 @@
 			return;
 		}
 
-		f.action = "/MemoServer/jsp/UpdateVersion.jsp";
+		f.action = "/jsp/UpdateVersion.jsp";
 		f.submit();
 	}
 </script>

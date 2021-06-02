@@ -43,7 +43,7 @@
 </head>
 <body>
 	<b>버킷 랭킹 목록 페이지</b>
-	<form name=board method=post action="/MemoServer/jsp/BucketDetails.jsp">
+	<form name=board method=post action="/jsp/BucketDetails.jsp">
 		<table width="100%" cellpadding="0" cellspacing="0" border="0">
 			<tr height="5">
 				<td width="5"></td>

@@ -26,7 +26,7 @@
 		if (isResult) {
 			System.out.println("글 삭제 성공");
 
-			response.sendRedirect("/MemoServer/jsp/ServerList.jsp");
+			response.sendRedirect("/jsp/ServerList.jsp");
 		} else {
 			System.out.println("글 삭제 실패");
 		}

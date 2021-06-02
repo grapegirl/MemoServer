@@ -81,13 +81,13 @@
 			</tr>
 			<tr align="center">
 				<td><input type=button value="홈"
-					Onclick="javascript:pass('/MemoServer/kikiMain.html')"> <input
+					Onclick="javascript:pass('/kikiMain.html')"> <input
 					type=button value="등록"
-					Onclick="javascript:pass('/MemoServer/jsp/InsertVersion.jsp')">
+					Onclick="javascript:pass('/jsp/InsertVersion.jsp')">
 					<input type=button value="수정"
-					Onclick="javascript:passForm('/MemoServer/jsp/ModifyVersion.jsp')">
+					Onclick="javascript:passForm('/jsp/ModifyVersion.jsp')">
 					<input type=button value="삭제"
-					Onclick="javascript:passForm('/MemoServer/jsp/DeleteVersion.jsp')">
+					Onclick="javascript:passForm('/jsp/DeleteVersion.jsp')">
 				</td>
 
 			</tr>

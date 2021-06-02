@@ -42,7 +42,7 @@
 			return;
 		}
 
-		f.action = "/MemoServer/jsp/UpdateCategoryBucket.jsp";
+		f.action = "/jsp/UpdateCategoryBucket.jsp";
 		f.submit();
 	}
 </script>

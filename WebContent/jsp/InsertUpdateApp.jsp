@@ -35,7 +35,7 @@
 <body>
 	<b>업데이트 내역 등록 페이지</b>
 	<table width="70%" cellpadding="0" cellspacing="0" border="0">
-		<form name=board method=post action="/MemoServer/jsp/AddUpdateApp.jsp">
+		<form name=board method=post action="/jsp/AddUpdateApp.jsp">
 			<tr height="5">
 				<td width="5"></td>
 			</tr>

@@ -8,7 +8,7 @@
 <html>
 <head>
 <script>
-	location.href = "/MemoServer/jsp/VersionList.jsp";
+	location.href = "/jsp/VersionList.jsp";
 </script>
 <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
 <title>메모가지 관리자 </title>

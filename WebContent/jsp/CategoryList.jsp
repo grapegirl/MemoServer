@@ -83,13 +83,13 @@
 			</tr>
 			<tr align="center">
 				<td><input type=button value="홈"
-					Onclick="javascript:pass('/MemoServer/kikiMain.html')"> <input
+					Onclick="javascript:pass('/kikiMain.html')"> <input
 					type=button value="등록"
-					Onclick="javascript:pass('/MemoServer/jsp/InsertCategoryBucket.jsp')">
+					Onclick="javascript:pass('/jsp/InsertCategoryBucket.jsp')">
 					<input type=button value="수정"
-					Onclick="javascript:passForm('/MemoServer/jsp/ModifyCategoryBucket.jsp')">
+					Onclick="javascript:passForm('/jsp/ModifyCategoryBucket.jsp')">
 					<input type=button value="삭제"
-					Onclick="javascript:passForm('/MemoServer/jsp/DeleteCategoryBucket.jsp')">
+					Onclick="javascript:passForm('/jsp/DeleteCategoryBucket.jsp')">
 
 				</td>
 

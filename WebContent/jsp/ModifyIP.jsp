@@ -41,7 +41,7 @@
 			form.versionName.focus();
 			return;
 		}
-		f.action = "/MemoServer/jsp/UpdateIP.jsp";
+		f.action = "/jsp/UpdateIP.jsp";
 		f.submit();
 	}
 </script>

@@ -41,7 +41,7 @@
 </head>
 <body>
 	<b>버킷 목록 페이지</b>
-	<form name=board method=post action="/MemoServer/jsp/BucketDetails.jsp">
+	<form name=board method=post action="/jsp/BucketDetails.jsp">
 		<table width="100%" cellpadding="0" cellspacing="0" border="0">
 			<tr height="5">
 				<td width="5"></td>
@@ -90,7 +90,7 @@
 		%>
 		<tr align="center">
 			<td><input type=button value="홈"
-					Onclick="javascript:pass('/MemoServer/guestMain.html')"> 
+					Onclick="javascript:pass('/guestMain.html')"> 
 				</td>
 			</tr>
 		<%
@@ -98,15 +98,15 @@
 		%>
 		<tr align="center">
 				<td><input type=button value="홈"
-					Onclick="javascript:pass('/MemoServer/kikiMain.html')"></td>
+					Onclick="javascript:pass('/kikiMain.html')"></td>
 				<td><select style="width: 300px;" id="hiddenCode" name="hidden">
 						<option value="Y">숨김</option>
 						<option value="N">숨김해제</option>
 				</select></td>
 				<td><input type=button value="업데이트"
-					Onclick="javascript:passForm('/MemoServer/jsp/UpdateHidden.jsp')">
+					Onclick="javascript:passForm('/jsp/UpdateHidden.jsp')">
 					<input type=button value="상세"
-					Onclick="javascript:passForm('/MemoServer/jsp/BucketDetails.jsp')">
+					Onclick="javascript:passForm('/jsp/BucketDetails.jsp')">
 				</td>
 			</tr>
 		<%

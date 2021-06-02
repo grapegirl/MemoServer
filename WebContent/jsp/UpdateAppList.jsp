@@ -93,7 +93,7 @@
 				%>
 				<tr align="center">
 					<td><input type=button value="홈"
-						Onclick="javascript:pass('/MemoServer/guestMain.html')"> 
+						Onclick="javascript:pass('/guestMain.html')"> 
 					</td>
 				</tr>
 				<%
@@ -102,13 +102,13 @@
 				
 				<tr align="center">
 					<td><input type=button value="홈"
-						Onclick="javascript:pass('/MemoServer/kikiMain.html')"> <input
+						Onclick="javascript:pass('/kikiMain.html')"> <input
 						type=button value="등록"
-						Onclick="javascript:pass('/MemoServer/jsp/InsertUpdateApp.jsp')">
+						Onclick="javascript:pass('/jsp/InsertUpdateApp.jsp')">
 						<input type=button value="수정"
-						Onclick="javascript:passForm('/MemoServer/jsp/ModifyUpdateApp.jsp')">
+						Onclick="javascript:passForm('/jsp/ModifyUpdateApp.jsp')">
 						<input type=button value="삭제"
-						Onclick="javascript:passForm('/MemoServer/jsp/DeleteUpdateApp.jsp')">
+						Onclick="javascript:passForm('/jsp/DeleteUpdateApp.jsp')">
 
 					</td>
 				</tr>

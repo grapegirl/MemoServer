@@ -56,7 +56,7 @@
 	%>
 	<table width="70%" cellpadding="0" cellspacing="0" border="0">
 		<form name=board method=post
-			action="/MemoServer/jsp/UpdateCateogry.jsp">
+			action="/jsp/UpdateCateogry.jsp">
 			<tr height="5">
 				<td width="5"></td>
 			</tr>

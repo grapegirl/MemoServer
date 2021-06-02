@@ -12,7 +12,7 @@
 <html>
 <head>
 <script>
-	location.href = "/MemoServer/jsp/AIScriptList.jsp";
+	location.href = "/jsp/AIScriptList.jsp";
 </script>
 <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
 <title>메모가지 관리자</title>

@@ -80,13 +80,13 @@
 				</tr>
 				<tr align="center">
 					<td><input type=button value="홈"
-						Onclick="javascript:pass('/MemoServer/kikiMain.html')"> <input
+						Onclick="javascript:pass('/kikiMain.html')"> <input
 						type=button value="등록"
-						Onclick="javascript:pass('/MemoServer/jsp/InsertIP.jsp')">
+						Onclick="javascript:pass('/jsp/InsertIP.jsp')">
 						<input type=button value="수정"
-						Onclick="javascript:passForm('/MemoServer/jsp/ModifyIP.jsp')">
+						Onclick="javascript:passForm('/jsp/ModifyIP.jsp')">
 						<input type=button value="삭제"
-						Onclick="javascript:passForm('/MemoServer/jsp/DeleteIP.jsp')">
+						Onclick="javascript:passForm('/jsp/DeleteIP.jsp')">
 					</td>
 				</tr>
 				<tr height="100">

@@ -12,7 +12,7 @@
 	
 	if (value == null) {
 		System.out.println("로그인 계정이 없습니다. 다시 로그인 해주세요.");
-		response.sendRedirect("/MemoServer/index.html");
+		response.sendRedirect("/index.html");
 	} else {
 		System.out.println("로그인 계정 있음 : " + value);
 	}

@@ -40,7 +40,7 @@
 	<b>카테고리 등록 페이지</b>
 	<table width="70%" cellpadding="0" cellspacing="0" border="0">
 		<form name=board method=post
-			action="/MemoServer/jsp/AddCategoryBucket.jsp">
+			action="/jsp/AddCategoryBucket.jsp">
 			<tr height="5">
 				<td width="5"></td>
 			</tr>

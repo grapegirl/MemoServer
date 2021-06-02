@@ -38,7 +38,7 @@
 			return;
 		}
 
-		f.action = "/MemoServer/jsp/UpdateApp.jsp";
+		f.action = "/jsp/UpdateApp.jsp";
 		f.submit();
 	}
 </script>

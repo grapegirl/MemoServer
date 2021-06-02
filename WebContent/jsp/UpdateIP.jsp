@@ -10,7 +10,7 @@
 <html>
 <head>
 <script>
-	location.href = "/MemoServer/jsp/ServerList.jsp";
+	location.href = "/jsp/ServerList.jsp";
 </script>
 <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
 <title>메모가지 관리자</title>

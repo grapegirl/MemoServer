@@ -18,9 +18,9 @@
 			SessionDao.removeSessionValue(request, userid);
 			System.out.println("remove Session User id");
 
-			response.sendRedirect("/MemoServer/index.html");
+			response.sendRedirect("/index.html");
 		} else {
-			response.sendRedirect("/MemoServer/index.html");
+			response.sendRedirect("/index.html");
 		}
 	%>
 </body>

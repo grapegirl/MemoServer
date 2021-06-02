@@ -38,12 +38,12 @@
 			System.out.println("select isResult : " + isResult);
 			
 			if (isResult) {
-				response.sendRedirect("/MemoServer/kikiMain.html");
+				response.sendRedirect("/kikiMain.html");
 			} else {
-				response.sendRedirect("/MemoServer/index.html");
+				response.sendRedirect("/index.html");
 			}
 		} else {
-			response.sendRedirect("/MemoServer/index.html");
+			response.sendRedirect("/index.html");
 		}
 	%>
 </body>

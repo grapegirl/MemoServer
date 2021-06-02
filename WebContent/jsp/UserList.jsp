@@ -106,7 +106,7 @@
 				</tr>
 				<tr align="center">
 					<td><input type=button value="홈"
-						Onclick="javascript:pass('/MemoServer/kikiMain.html')"></td>
+						Onclick="javascript:pass('/kikiMain.html')"></td>
 
 				</tr>
 				<tr height="100">

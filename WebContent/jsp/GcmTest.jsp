@@ -64,7 +64,7 @@
 </head>
 <body>
 	<table width="70%" cellpadding="0" cellspacing="0" border="0">
-		<form name=gcm method=post action="/MemoServer/jsp/sendMessage.jsp">
+		<form name=gcm method=post action="/jsp/sendMessage.jsp">
 			<tr height="5">
 				<td width="5"></td>
 			</tr>
@@ -98,7 +98,7 @@
 					OnClick="javascript:gcmInputCheck()"></td>
 
 				<td><input type=button value="홈"
-					Onclick="javascript:pass('/MemoServer/kikiMain.html')"></td>
+					Onclick="javascript:pass('/kikiMain.html')"></td>
 			</tr>
 		</form>
 	</table>
