@@ -119,22 +119,22 @@
 						<option value="6">CHEER</option>
 				</select></td>
 				<td><input name="categoryCode" type=button value="업데이트"
-					Onclick="javascript:passForm('/MemoServer/jsp/UpdateAIScript.jsp')">
+					Onclick="javascript:passForm('/jsp/UpdateAIScript.jsp')">
 				</td>
 			</tr>
 			<tr height="100" align="center">
 				<td>내용</td>
 				<td><input style="width: 300px;" name="content" type=edit></td>
 				<td><input type=button value="등록"
-					Onclick="javascript:passForm('/MemoServer/jsp/AddAIScript.jsp')">
+					Onclick="javascript:passForm('/jsp/AddAIScript.jsp')">
 				</td>
 			</tr>
 
 			<tr height="100" align="center">
 				<td colspan="3"><input type=button value="홈"
-					Onclick="javascript:pass('/MemoServer/kikiMain.html')"> <input
+					Onclick="javascript:pass('/kikiMain.html')"> <input
 					type=button value="삭제"
-					Onclick="javascript:passForm('/MemoServer/jsp/DeleteAIScript.jsp')">
+					Onclick="javascript:passForm('/jsp/DeleteAIScript.jsp')">
 				</td>
 			</tr>
 		</table>
