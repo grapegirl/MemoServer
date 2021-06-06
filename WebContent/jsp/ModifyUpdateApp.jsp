@@ -54,10 +54,10 @@
 			out.println("글 수정 번호 없음");
 			return;
 		}
-		System.out.println("idx : " + idx);
+		System.out.println("@@ idx : " + idx);
 
 		ArrayList<UpdateApp> BoardList = UpdateAppDao
-				.selecetUpdateApp("SELECT * FROM update_app WHERE version_code = " + idx + ";");
+				.selecetUpdateApp("SELECT * FROM UPDATE_APP WHERE VERSION_CODE = '" + idx + "';");
 
 		if (BoardList.size() == 1) {
 			System.out.println("글 수정 데이타 조회");

@@ -61,7 +61,7 @@
 		System.out.println("idx : " + idx);
 
 		ArrayList<CategoryBucket> BoardList = CategoryBucketDao
-				.selectCategoryBucket("SELECT * FROM category_bucket WHERE category_code = " + idx + ";");
+				.selectCategoryBucket("SELECT * FROM CATEGORY_BUCKET WHERE CATEGORY_CODE = '" + idx + "';");
 
 		if (BoardList.size() == 1) {
 			System.out.println("글 수정 데이타 조회");

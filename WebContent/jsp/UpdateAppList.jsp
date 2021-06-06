@@ -71,6 +71,7 @@
 				<%
 					//게시판 목록 불러오기
 					String sql = XMLParser.getSqlFromXML("selectUpdateApp");
+					System.out.println("@@ sql : " + sql);
 					ArrayList<UpdateApp> boardList = (ArrayList<UpdateApp>) UpdateAppDao.selecetUpdateApp(sql);
 					for (int i = 0; i < boardList.size(); i++) {
 				%>
