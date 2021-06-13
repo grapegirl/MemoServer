@@ -34,6 +34,7 @@
 
 			String savePath = XMLParser.getXMLObject("DBfileUploadPath");
 			resultPath = FileUpload.upload(request, savePath);
+			System.out.println("@@ uploadDBFile resultPath : " + resultPath );
 			JSONObject jsonObj = null;
 			if (resultPath != null) {
 				jsonObj = MobileAPIController.uploadDBFile(nickname, resultPath, date);
