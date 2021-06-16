@@ -25,10 +25,10 @@
 <script src="js/skel.min.js"></script>
 <script src="js/skel-layers.min.js"></script>
 <script src="js/init.js"></script>
-<link rel="stylesheet" href="/MemoServer/css/style.css" />
-<link rel="stylesheet" href="/MemoServer/css/style.css" />
-<link rel="stylesheet" href="/MemoServer/css/style-desktop.css" />
-<link rel="stylesheet" href="/MemoServer/css/style-noscript.css" />
+<link rel="stylesheet" href="/css/style.css" />
+<link rel="stylesheet" href="/css/style.css" />
+<link rel="stylesheet" href="/css/style-desktop.css" />
+<link rel="stylesheet" href="/css/style-noscript.css" />
 <script>
 	function pass(url) {
 		location.href = url;
@@ -92,7 +92,7 @@
 			%>
 			<tr align="center">
 				<td><input type=button value="홈"
-						Onclick="javascript:pass('/MemoServer/guestMain.html')"> 
+						Onclick="javascript:pass('/guestMain.html')"> 
 					</td>
 				</tr>
 			<%

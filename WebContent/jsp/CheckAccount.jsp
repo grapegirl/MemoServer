@@ -28,14 +28,18 @@
 		boolean isAdmin = UserDao.checkAdmin(user);
 		System.out.println("select isAdmin : " + isAdmin);
 		
+		String userid = XMLParser.getXMLObject("SessionUserId");
+		
+		
+		
 		if (isAdmin == true) {
-			String userid = XMLParser.getXMLObject("SessionUserId");
+		
+			boolean isResult = UserDao.checkUser(user);
+			System.out.println("select isResult : " + isResult);
 			
 			//세션에 로그인 계정 값 추가
 			SessionDao.addSessionValue(request, userid, userID);
 			SessionDao.printSessionValues(request);
-			boolean isResult = UserDao.checkUser(user);
-			System.out.println("select isResult : " + isResult);
 			
 			if (isResult) {
 				response.sendRedirect("/kikiMain.html");
@@ -43,7 +47,11 @@
 				response.sendRedirect("/index.html");
 			}
 		} else {
-			response.sendRedirect("/index.html");
+			
+			//세션에 로그인 계정 값 추가
+			SessionDao.addSessionValue(request, userid, "guest");
+			SessionDao.printSessionValues(request);
+			response.sendRedirect("/guestMain.html");
 		}
 	%>
 </body>

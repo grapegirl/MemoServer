@@ -10,6 +10,9 @@
 	String userid = XMLParser.getXMLObject("SessionUserId");
 	String value = SessionDao.getSessionValue(request, userid);
 	
+	System.out.println("@@ CheckSession userid : " + userid);
+	System.out.println("@@ CheckSession value : " + value);
+	
 	if (value == null) {
 		System.out.println("로그인 계정이 없습니다. 다시 로그인 해주세요.");
 		response.sendRedirect("/index.html");
